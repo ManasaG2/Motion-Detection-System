@@ -6,8 +6,8 @@ int buzzerPin=D5;
 int state = LOW;             // by default, no motion detected
 int val = 0;                 // variable to store the sensor status (value)
 
-const char* ssid="Manasa's Galaxy F42 5G";
-const char* password = "varshaisawesome";
+const char* ssid="";
+const char* password = "";
 WiFiClient  client;
 unsigned long myChannelNumber = 2152211;
 const char* myWriteAPIKey = "XGCEAJMFMDBEI623";
